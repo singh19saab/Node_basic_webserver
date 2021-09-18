@@ -6,6 +6,7 @@ const forecast = require('./utils/forecast');
 
 
 const app=express();
+const port = process.env.PORT || 3000;
 
 // define path for express config
 const viewPath = path.join(__dirname, '../views')
@@ -60,6 +61,6 @@ app.get('*' , (req,res)=>{
     })
 })
 
-app.listen(5050, () => {
-    console.log("Server is up on port 5050");
+app.listen(port, () => {
+    console.log("Server is up on port " + port);
 })
