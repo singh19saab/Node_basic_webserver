@@ -1,0 +1,50 @@
+body{
+    color: #333333;
+    font-family: arial,sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+header a{
+    font-size: medium;
+    color: #707070;
+    margin-right: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #707070;
+}
+.footer-text{
+    font-size: medium;
+    color: #000;
+}
+
+input{
+    border: 1px solid #707070;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #707070;
+}
+
+#para1{
+    color: red;
+}
+
+#para2{
+    color: green;
+}
